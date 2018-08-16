@@ -1,0 +1,31 @@
+.Products{
+    width: 80%;
+    margin: auto;
+}
+
+
+.Title p{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.Title span{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Control{
+    display: flex;
+    flex-direction: row;
+    height: max-content;
+    margin-top: 30px;
+}
+
+.SidebarLeft{
+    height: max-content;
+    width: 20%;
+    background-color: white;
+    border: rgba(0,0,0,0.2) 1px solid;
+}

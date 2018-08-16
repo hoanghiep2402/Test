@@ -1,0 +1,24 @@
+.CardHeader{
+    height: 40px;
+    width: 100%;
+    margin: auto;
+    border-bottom: black 1px solid;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: bold ;
+    align-items: center;
+    align-content: flex-start;
+}
+
+.CardHeader i{
+    color: #ff253a;
+    cursor: pointer;
+    display: block;
+}
+
+.CardBody{
+
+
+}

@@ -1,0 +1,11 @@
+.ListProducts{
+    display: flex;
+    flex-direction: column;
+    width: 79%;
+    padding: 0 5px;
+}
+
+.pagingTop{
+    display: flex;
+    justify-content: space-between;
+}

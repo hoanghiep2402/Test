@@ -1,0 +1,58 @@
+
+.CardList{
+    height: max-content;
+    width: 90%;
+    box-sizing: content-box;
+    margin: 20px auto;
+    background-color: white;
+}
+
+.CardList__Header{
+    background: #ffffff;
+    width: 100%;
+    font-size:18px ;
+    font-weight: bolder;
+    height: 53px;
+    border: 1px rgba(0,0,0,0.1) solid;
+    display: flex;
+    align-items: center;
+    box-sizing: content-box;
+}
+
+.CardList__Header a{
+    background-color: #f7f7f7 ;
+    height: inherit;
+    align-items: center;
+    display: flex;
+    width: 120px;
+    justify-content: space-around;
+    text-decoration: none;
+    color: black;
+}
+
+.CardList__Body{
+    height: max-content;
+    width: 100%;
+    border: 1px rgba(0,0,0,0.1) solid;
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+
+
+.CardList__Items{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    box-sizing: border-box;
+    height: max-content;
+    position: static;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+

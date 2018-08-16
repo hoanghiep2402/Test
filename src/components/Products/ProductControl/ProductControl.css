@@ -1,0 +1,43 @@
+.ProductControl{
+    height: 200px;
+    width: 100%;
+    background-color: #cccccc;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.ProductControl p{
+    height: 40px;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    border-bottom: #222222 solid 1px;
+    padding: 5px 5px;
+    text-transform: uppercase;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bolder;
+    color: #01447e;
+}
+
+
+.SelectedFilter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10px;
+    height: 160px;
+}
+
+.Category{
+    height: 200px;
+    width: 90%;
+    padding: 5px 10px;
+
+}
+.Category h4{
+    text-transform: uppercase;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    width: 90%;
+    border-bottom: #a3a3a3 1px solid;
+}

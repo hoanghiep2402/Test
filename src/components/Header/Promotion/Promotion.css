@@ -1,0 +1,27 @@
+.Promotion{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #ffffff;
+    border-bottom: 1px solid #000000;
+     box-shadow: 0 0 5px black;
+}
+.Promotion span{
+    align-items: center;
+    display: flex;
+}
+
+
+.Promotion i{
+    margin-right: 5px;
+    color: #0000ff;
+}
+
+.Promotion img{
+    margin-left: 5px;
+}
+
+.Promotion span:hover{
+    text-decoration: #000000 underline solid ;
+    cursor: pointer;
+}

@@ -1,0 +1,34 @@
+.Menu{
+    list-style: none;
+    line-height: 48px;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+.Menu li{
+    padding: 10px;
+    display: block;
+}
+
+
+.Menu li:hover >a,
+.Menu li :active > a{
+    display: block;
+    cursor: pointer;
+}
+
+
+
+.Menu a{
+   list-style: none;
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    line-height: 48px;
+}
+
+.Menu a:hover{
+    color: #eeeeee;
+}

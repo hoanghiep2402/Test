@@ -1,0 +1,42 @@
+.Button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bolder;
+}
+
+
+.Success {
+    color: #5C9210;
+}
+
+.Danger {
+    color: #944317;
+}
+
+.Primary {
+    background-color: #7f8ff4;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 14px;
+}
+
+.hoverButton {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    background-color: white;
+    color: black;
+    border: 2px solid cornflowerblue;
+    border-radius: 2px;
+}
+
+.hoverButton:hover {
+    background-color: grey; /* Green */
+    color: black;
+
+}

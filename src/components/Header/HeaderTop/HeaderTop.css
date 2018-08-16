@@ -1,0 +1,20 @@
+.HeaderTop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222222;
+    color: #ffffff;
+}
+
+.HeaderTop span{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.HeaderTop i{
+   margin-left: 5px;
+}

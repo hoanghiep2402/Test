@@ -1,0 +1,38 @@
+
+.CardItem{
+    height: max-content;
+    width: 222px;
+    border: rgba(0,0,0,0.1) 1px solid;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+
+}
+.CardItem img{
+    height: 180px;
+    width: 220px;
+}
+
+.CardItem p{
+     display: flex;
+     justify-content: center;
+    text-align: center;
+    height: 43.2px;
+        align-items: center;
+ }
+
+.CardItem span{
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-weight: bolder;
+}
+
+.CardItem div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

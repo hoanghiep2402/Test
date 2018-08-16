@@ -1,0 +1,13 @@
+.LoginButton{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Username{
+    font-family: SansSerif, serif;
+    margin-left: 3px !important;
+}
+
